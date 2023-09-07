@@ -39,6 +39,4 @@
         "value": "th-koeln.de/liveData",
         "local": true,
         "type": "Submodel"
-    },
-    "doAtStartup": true
-}
+    }
