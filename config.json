@@ -25,18 +25,15 @@
     "semanticIdAid": {
         "idType": "Custom",
         "value": "th-koeln.de/aid",
-        "local": true,
-        "type": "Submodel"
+        "local": true
     },
     "semanticIdAimc": {
         "idType": "Custom",
         "value": "th-koeln.de/aimc",
-        "local": true,
-        "type": "Submodel"
+        "local": true
     },
     "semanticIdLiveData": {
         "idType": "Custom",
         "value": "th-koeln.de/liveData",
-        "local": true,
-        "type": "Submodel"
+        "local": true
     }
