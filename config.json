@@ -1,0 +1,44 @@
+{
+    "devices":  [1050625, 1050626, 523309, 13, 15436, 154150, 1048577, 710121, 2100102, 2000, 15437, 786302, 15433, 2479166, 65550, 77, 2502620, 1000, 2427948, 2502618, 3056767, 1, 2502634, 2098178, 2223093, 2099201, 3],
+    
+    "serverUrl": "http://127.0.0.0:4001/shells/",
+    "schemeIdAas": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "$deviceName$($deviceId$)"
+    },
+    "schemeIdAid": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "AssetInterfacesDescription"
+    },
+    "schemeIdAimc": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "AssetInterfaceMappingConfiguration"
+    },
+    "schemeIdLiveData": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "BACnetDatapointsInformation"
+    },
+    "semanticIdAid": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/aid",
+        "local": true,
+        "type": "Submodel"
+    },
+    "semanticIdAimc": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/aimc",
+        "local": true,
+        "type": "Submodel"
+    },
+    "semanticIdLiveData": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/liveData",
+        "local": true,
+        "type": "Submodel"
+    },
+    "doAtStartup": true
+}

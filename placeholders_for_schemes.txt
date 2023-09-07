@@ -1,0 +1,12 @@
+$timestamp$: 
+$timestamp_ns$
+$timestamp_ms$
+$timestamp_s$
+$day$
+$month$
+$year$
+$hour$
+$min$
+$sec$
+$deviceName$: BACnet Device Name
+$deviceId$: BACnet Device Id
