@@ -53,10 +53,12 @@ class ConfigManager:
             return {"keys": []}
 
         if "keys" in var1.keys():
-            self.checkForMandatoryKeys(["idType", "value", "local", "type"], var1["keys"], name)
+            self.checkForMandatoryKeys(["idType", "value", "local"], var1["keys"], name)
+            var1["type"] = "Submodel"
             return var1
         else:
-            self.checkForMandatoryKeys(["idType", "value", "local", "type"], var1, name)
+            self.checkForMandatoryKeys(["idType", "value", "local"], var1, name)
+            var1["type"] = "Submodel"
             return {"keys": [var1]}
 
     def checkForMandatoryKeys(self, mandatoryKeys: list, dictToCheck: dict, dictName: str):
