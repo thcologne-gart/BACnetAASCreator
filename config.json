@@ -24,19 +24,19 @@
     },
     "semanticIdAid": {
         "idType": "Custom",
-        "value": "th-koeln.de/thomas/aid",
+        "value": "th-koeln.de/aid",
         "local": true,
         "type": "Submodel"
     },
     "semanticIdAimc": {
         "idType": "Custom",
-        "value": "th-koeln.de/thomas/aimc",
+        "value": "th-koeln.de/aimc",
         "local": true,
         "type": "Submodel"
     },
     "semanticIdLiveData": {
         "idType": "Custom",
-        "value": "th-koeln.de/thomas/liveData",
+        "value": "th-koeln.de/liveData",
         "local": true,
         "type": "Submodel"
     },
