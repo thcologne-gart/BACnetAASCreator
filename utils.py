@@ -27,24 +27,6 @@ class ConfigManager:
         f = open(pathConfigFile)
         return json.loads(f.read()), pathConfigFile
 
-######## RASPBERRY
-
-    def writeConfigFile(self):
-        json_object = json.dumps(self.jsonConfig, indent=4)
-
-        with open(self.pathConfigFile, "w") as outfile:
-            outfile.write(json_object)
-
-    def setDoAtStartup(self, doAtStartup):
-        self.jsonConfig["doAtStartup"] = doAtStartup
-
-    def doAtStartup(self):
-        if "doAtStartup" in self.jsonConfig.keys():
-            return self.jsonConfig['doAtStartup']
-        return True
-
-########
-
     def getDevicesList(self):
         devices = []
         if "devices" in self.jsonConfig.keys():
